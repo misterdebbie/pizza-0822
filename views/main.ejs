@@ -1,0 +1,103 @@
+<!--<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Best Pizza</title>
+    <link rel="stylesheet" href="../styles/bestpizza.css">
+  </head>-->
+  <%- include('./partials/header') %>
+  <body>
+    <div class="pizzapage">
+
+      <div class="header">
+        <!--<div id="logo">
+          <h1>BEST PIZZA</h1>
+          <div class="image">
+            <a href="/"><img src="/images/pizza.png" alt="pizza" title="this is a pizza" /></a>
+          </div>
+          <p>718-388-1980</p>
+        </div>-->
+        <%- include('./partials/logo') %>
+        <hr>
+
+      <div class="logincontainer">
+        <div class="loginwrapper">
+          <p><a href="/auth/login">LOGIN</a></p>
+          <p>Pizza Club | <a href="/auth/register">Join</a></p>
+        </div>
+      </div>
+      <hr>
+      <div class="nav">
+        <p> <a href="/menu">MENU</a> | <a href="/specials">SPECIALS</a></p>
+      </div>
+      <hr>
+    </div><!-- close header -->
+
+    <div class="contentwrapper">
+      <div class="mainimage wrapperbox">
+        <h2>PIZZA</h2>
+        <img src="images/pizza2.png" alt="pizza" title="this is a pizza" />
+        <br>
+        <button type="button" name="button">ORDER</button>
+      </div><!-- close mainimage -->
+
+      <div class="wrapperbox">
+        <a href="/specials"><h2>SPECIALS</h2></a>
+          <div class="combowrapper innerwrapper">
+            <div class="item">
+              <p>COMBO 1</p>
+              <img src="images/pizza2.png" alt="pizza" title="this is a pizza" />
+              <br>
+              <button type="button" name="button">ORDER</button>
+            </div>
+            <div class="item">
+                <p>COMBO 2</p>
+              <img src="images/pizza2.png" alt="pizza" title="this is a pizza" />
+              <br>
+              <button type="button" name="button">ORDER</button>
+            </div>
+            <div class="item">
+                <p>COMBO 3</p>
+              <img src="images/pizza2.png" alt="pizza" title="this is a pizza" />
+              <br>
+              <button type="button" name="button">ORDER</button>
+            </div>
+          </div><!-- close combowrapper -->
+      </div><!-- close specials -->
+
+    <div class="wrapperbox">
+        <a href="/menu"><h2>EXPLORE MENU</h2></a>
+        <div class="innerwrapper">
+          <div class="item">
+            <p>  <a href="">Pizzas</a></p>
+              <img src="images/pizza2.png" alt="pizza" title="this is a pizza" />
+          </div>
+          <div class="item">
+            <p>  <a href="/menu/desserts">Desserts</a></p>
+              <img src="images/cake.png" alt="cake" title="this is a cake" />
+          </div>
+          <div class="item">
+            <p>  <a href="">Drinks</a></p>
+              <img src="images/coke.png" alt="coke" title="this is a coke" />
+          </div>
+        </div><!-- close menuitemwrapper -->
+    </div><!-- close menuitems -->
+
+    <div class="wrapperbox">
+      <a href="/pizzaclub"><h2>JOIN THE PIZZA CLUB</h2></a>
+      <p>Reason 1</p>
+      <p>Reason 2</p>
+      <p>Reason 3</p>
+      <br>
+      <button type="button" name="button">JOIN</button>
+    </div><!-- close pizzaclubinfo -->
+  </div><!-- close contentwrapper -->
+    <!--<div class="footer">
+      <p>BEST PIZZA INFO&reg;</p>
+    </div>-->
+  <%- include('./partials/footer') %>
+  </div><!-- close pizzapage -->
+  </body>
+</html>

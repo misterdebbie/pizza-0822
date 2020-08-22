@@ -1,0 +1,39 @@
+body {
+  margin: 40px auto;
+  text-align: center;
+  width: 80%;
+  height: auto;
+}
+form {
+  border: 2px solid black;
+  width: 40%;
+  margin: 14px auto;
+  height: auto;
+}
+input {
+  display: block;
+  margin: 40px auto;
+  border-radius: 10px;
+  text-align: center;
+  width: 50%;
+  height: 5vh;
+}
+#loginbutton {
+  width: 30% !important;
+  background-color: #3d9448;
+  font-size: 1.2em;
+}
+#rememberuser {
+  display: inline;
+  margin: 0px auto;
+  width: unset;
+  height: unset;
+}
+#loginoptions {
+  margin-bottom: 10px;
+}
+@media only screen and (max-width:600px) {
+  body {
+    background-color: pink;
+  }
+}

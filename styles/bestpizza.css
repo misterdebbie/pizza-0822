@@ -1,0 +1,87 @@
+* {
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 90%;
+    margin: auto;
+  }
+hr {
+  max-width: 80%;
+}
+.logo {
+  margin: 16px auto;
+}
+#logo h1 {
+ padding: 18px 0;
+}
+#logo p {
+  padding-bottom: 16px;
+  font-weight: bold;
+}
+.loginwrapper {
+  display: flex;
+  padding: 16px
+}
+.nav {
+  padding: 14px;
+}
+.wrapperbox {
+  margin: 16px auto;
+  padding: 16px;
+  border: 2px solid black;
+  background-color: white;
+}
+.wrapperbox h2 {
+  margin-bottom: 16px;
+}
+.item p {
+  margin-bottom: 12px;
+  color: green;
+}
+.item img, .mainimage img {
+  margin-bottom: 16px;
+}
+/*#mainimage {
+  border: 2px solid black;
+  background-color: white;
+  margin: 16px auto;
+  padding: 16px;
+}*/
+.innerwrapper {
+  display: flex;
+}
+button {
+  background-color: red;
+  border-radius: 12px;
+  padding: 4px;
+  width: 100px;
+}
+.footer p {
+  padding-bottom: 16px;
+}
+@media only screen and (max-width:600px) {
+  .pizzapage {
+    max-width: 100%;
+    background-color: green ;
+  }
+  #logo h1 {
+   padding-top: 18px;
+  }
+  #logo img {
+    margin: 16px auto;
+  }
+  .innerwrapper {
+    display: unset;
+  }
+  .loginwrapper p {
+    margin: 16px auto;
+  }
+  .item {
+    margin: 24px auto;
+  }
+  button {
+    min-width: 80px;
+  }
+}
