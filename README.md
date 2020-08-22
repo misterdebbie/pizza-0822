@@ -37,8 +37,6 @@ Node
 
 Express
 
-React
-
 Webpack
 
 Postgres
